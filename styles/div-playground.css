@@ -21,11 +21,8 @@ p {
 
 .container {
   border: 6px solid #00B3B4;
+  width: 1040px;
 }
-
-/*.column {
-  border: 1px dashed black;
-}*/
 
 .lemon-note {
   padding: 5px 10px;
@@ -38,25 +35,65 @@ p {
 
 .lemon-note p {
   font-size: 13px;
-
 }
 
 .lemon-div {
   background-color: #A8C2E1;
   padding: 15px;
   border: 4px solid #4A90E2;
-  width: 290px;
-  height: 290px;
+  width: 270px;
+  height: 270px;
   display: block;
   margin: auto;
 }
 
 .outer-lemon {
   background-color: #9B9B9B;
-  padding: 30px 0px;
+  padding: 25px 10px;
   margin-top: 225px;
   margin-bottom: 225px;
+}
 
+.purple-box {
+  border: 2px solid #B25AFF;
+  margin-top: 225px;
+  height: 321px;
+  width: 450px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.purple-note {
+  text-align: center;
+  font-size: 19px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 300px;
+  color: #666666;
+  font-weight: 300;
+}
+
+.purple-letters {
+  /*text-align: center;*/
+  margin-left: 45%;
+  margin-right: 0;
+  color: #B25AFF;
+  font-size: 12px;
+}
+
+.purple-numbers {
+  float: right;
+  letter-spacing: 10px;
+  color: #B25AFF;
+}
+
+.purple-title {
+  border-bottom: 2px solid #B25AFF;
+  padding: 7px;
 }
 
 #lemon-title {
