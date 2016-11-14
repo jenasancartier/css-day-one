@@ -1,0 +1,67 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  width: 100px;
+  margin: 30px auto;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+.container {
+  border: 6px solid #00B3B4;
+}
+
+/*.column {
+  border: 1px dashed black;
+}*/
+
+.lemon-note {
+  padding: 5px 10px;
+  font-size: 12px;
+  text-align: left;
+  color: #A743FF;
+  background-color: #D8D8D8;
+  border: 1px solid #9B9B9B;
+}
+
+.lemon-note p {
+  font-size: 13px;
+
+}
+
+.lemon-div {
+  background-color: #A8C2E1;
+  padding: 15px;
+  border: 4px solid #4A90E2;
+  width: 290px;
+  height: 290px;
+  display: block;
+  margin: auto;
+}
+
+.outer-lemon {
+  background-color: #9B9B9B;
+  padding: 30px 0px;
+  margin-top: 225px;
+  margin-bottom: 225px;
+
+}
+
+#lemon-title {
+  font-size: 19px;
+  text-align: center;
+  color: #9013FE;
+  margin-top: 25px;
+}
