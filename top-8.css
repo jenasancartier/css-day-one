@@ -1,0 +1,76 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif !important;
+}
+
+span {
+  color: red;
+}
+
+h4 {
+  padding: 5px 10px;
+  margin-top: 0 !important;
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+h5 {
+  background-color: #FFCE99;
+  color: #CF6D36;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  margin-bottom: 0 !important;
+}
+
+h6 {
+  font-size: 8px;
+}
+
+img {
+  display: block;
+  margin: 2px auto;
+}
+
+.avatar {
+  border: 2px solid #2557AB;
+  margin: 0 20px;
+}
+
+.friends {
+  float: left;
+  text-align: center;
+}
+
+.friends p {
+  color: #2557AB;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.row {
+  width: 578px;
+}
+
+.online {
+  color: #429444 !important;
+  font-weight: bold;
+}
+
+.glyphicon {
+  color: #FA6C00;
+}
+
+#view-all {
+  font-size: 10px;
+  font-weight: bold;
+  color: red;
+  float: right;
+  margin-top: 20px;
+}
