@@ -1,0 +1,103 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../img/mountains.jpg") no-repeat center bottom;
+  background-size: cover;
+}
+
+p {
+  float: left;
+}
+
+
+
+.head {
+  height: 900px;
+}
+
+.searchlight {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.search-text {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: .5px;
+  opacity: 0.5;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  font-size: 190px;
+  margin: 0;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Lora', serif;
+  font-size: 33px;
+  color: white;
+  font-style: italic;
+  font-weight: normal;
+  text-shadow: none;
+  -webkit-font-smoothing: antialiased;
+  margin-top: -0.5em;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.logo {
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  margin-top: 10px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  margin-right: 30px;
+  color: white;
+  font-weight: lighter;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.signup {
+  border: 2px solid white;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-top: 90px;
+  text-align: center;
+}
