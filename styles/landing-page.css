@@ -13,8 +13,6 @@ p {
   float: left;
 }
 
-
-
 .head {
   height: 900px;
 }
@@ -100,4 +98,40 @@ h2 {
 .title {
   margin-top: 90px;
   text-align: center;
+}
+
+.buttons {
+  display: block;
+  margin: auto;
+  width: 45%;
+}
+
+.trending {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 2px;
+  color: white;
+  padding: 15px 45px;
+  text-shadow: none;
+  letter-spacing: 0.5px;
+  margin-right: 20px;
+}
+
+.join {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #2C5BA5;
+  border-radius: 2px;
+  color: white;
+  padding: 15px 30px;
+  text-shadow: none;
+  letter-spacing: 0.5px;
+  background-color: #1C75BC;
+}
+
+#facebook {
+  margin-right: 10px;
 }
