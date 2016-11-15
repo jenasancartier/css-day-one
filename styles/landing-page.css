@@ -78,11 +78,17 @@ h2 {
 .nav-link {
   font-family: 'Open Sans', sans-serif;
   float: right;
-  margin-right: 30px;
   color: white;
   font-weight: lighter;
   font-size: 16px;
   letter-spacing: 0.5px;
+  padding: 10px;
+  margin: 8px 5px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+
 }
 
 .signup {
@@ -93,6 +99,12 @@ h2 {
   font-weight: bold;
   margin-top: 6px;
   margin-bottom: 10px;
+}
+
+.signup:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 
 .title {
@@ -119,6 +131,10 @@ h2 {
   margin-right: 20px;
 }
 
+.trending:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
 .join {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -130,6 +146,10 @@ h2 {
   text-shadow: none;
   letter-spacing: 0.5px;
   background-color: #1C75BC;
+}
+
+.join:hover {
+  background-color: #2C5BA5;
 }
 
 #facebook {
